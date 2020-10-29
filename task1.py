@@ -74,11 +74,11 @@ Shih-tzu is owned by Christy
 (10 points) 
 """
 class pet:
-    animal=""
-    name=""
-    owner=""
-    breed=""
-    bd=""
+    animal= none
+    name= none
+    owner= none
+    breed= none
+    bd= none
 
     def __init__(self):
         self.animal= input("what animal? :")
