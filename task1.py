@@ -74,18 +74,18 @@ Shih-tzu is owned by Christy
 (10 points) 
 """
 class pet:
-    animal= none
-    name= none
-    owner= none
-    breed= none
-    bd= none
+    animal= None
+    name= None
+    owner= None
+    breed= None
+    bd= None
 
     def __init__(self):
-        self.animal= input("what animal? :")
-        self.name=input("what is its name? :")
-        self.owner=input("who is the owner? :")
-        self.breed=input("what breed is it? :")
-        self.bd=input("when is their birthday? :")
+        self.animal = input("what animal? :")
+        self.name =input("what is its name? :")
+        self.owner =input("who is the owner? :")
+        self.breed =input("what breed is it? :")
+        self.bd =input("when is their birthday? :")
 
     def display(self):
          print("name: " + self.name)
@@ -97,7 +97,7 @@ def menu():
     print("[1] Enter a pet")
     print("[2] retreive a pet")
     print("[3] Exit")
-    x = input('pick an option? : ')
+    x = input("pick an option? : ")
     return int(x)
 
 pets=[]
@@ -106,7 +106,7 @@ x = menu()
 while x !=3:
     if x ==1:
         pets.append(pet())
-    elif x ==2:
+    elif x == 2:
         pn= input("which pet? : ")
         for i in pets:
             if pn == i.name:
