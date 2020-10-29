@@ -105,7 +105,7 @@ pets=[]
 x = menu()
 while x !=3:
     if x ==1:
-        pets.append(pet))
+        pets.append(pet())
     elif x ==2:
         pn= input("which pet? : ")
         for i in pets:
