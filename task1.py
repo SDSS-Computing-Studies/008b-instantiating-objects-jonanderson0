@@ -88,17 +88,17 @@ class pet:
         self.bd=input("when is their birthday? :")
 
     def display(self):
-        print("name: " + self.name)
-        print("animal: " + self.animal)
-        print("breed: " + self.breed)
-        print("owner: " + self.owner)
+         print("name: " + self.name)
+         print("animal: " + self.animal)
+         print("breed: " + self.breed)
+         print("owner: " + self.owner)
 
-   def menu(self):
+def menu():
     print("[1] Enter a pet")
     print("[2] retreive a pet")
     print("[3] Exit")
-    x = imput('pick an option? : ')
-    return int(x)
+    x = input('pick an option? : ')
+     return int(x)
 
 pets=[]
 
