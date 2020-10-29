@@ -73,3 +73,4 @@ Buster dog
 Shih-tzu is owned by Christy
 (10 points) 
 """
+print(".*Copper[.\r\n]*Dog[.\r\n]*Beagle[.\r\n]Chris")
